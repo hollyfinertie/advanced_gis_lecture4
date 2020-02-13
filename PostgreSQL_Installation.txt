@@ -1,0 +1,25 @@
+
+
+Download PostgreSQL 12.1 for you operating system (Windows/Mac).  If you are using Linux, you will have to download an older version of the software.
+
+https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+
+During the installation:
+
+1) Follow all of the default (recommended installation) settings.
+
+2) Set your postgres superuser password to something you'll remember.  I generally make mine my first name in all lower case letters.
+
+3) Leave the port the server should listen to as 5432.  This is the port that will appear in our labs throughout the semester so it'll make it easier to connect in the future.  
+
+4) After installation, allow the Stack Builder to launch and select PostgreSQL 12 from the dropdown list on the first popup window.
+
+5) In the 2nd window, open the "Spatial Extensions" option and check the box next to PostGIS 3.0 (make sure the box is checked).
+
+6) Follow the default options through the remainder of the PostGIS installation, including selecting yes for all environment questions that pop up during the process.
+
+
+
+
+
+
